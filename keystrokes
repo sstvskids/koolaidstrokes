@@ -1,0 +1,84 @@
+				local ScreenGui = Instance.new("ScreenGui")
+				local W = Instance.new("TextLabel")
+				local UICorner = Instance.new("UICorner")
+				local A = Instance.new("TextLabel")
+				local UICorner_2 = Instance.new("UICorner")
+				local S = Instance.new("TextLabel")
+				local UICorner_3 = Instance.new("UICorner")
+				local D = Instance.new("TextLabel")
+				local UICorner_4 = Instance.new("UICorner")
+				local SPACE = Instance.new("TextLabel")
+				local UICorner_5 = Instance.new("UICorner")
+				
+				ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+				ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+				
+				W.Name = "W"
+				W.Parent = ScreenGui
+				W.BackgroundColor3 = Color3.new(0.219608, 0.45098, 0.941177)
+				W.Position = UDim2.new(0.0100809559, 0, 0.362543195, 0)
+				W.Size = UDim2.new(0, 86, 0, 70)
+				W.Font = Enum.Font.SourceSans
+				W.Text = "W"
+				W.TextColor3 = Color3.new(1, 1, 1)
+				W.TextScaled = true
+				W.TextSize = 14
+				W.TextWrapped = true
+				
+				UICorner.Parent = W
+				
+				A.Name = "A"
+				A.Parent = ScreenGui
+				A.BackgroundColor3 = Color3.new(0.219608, 0.45098, 0.941177)
+				A.Position = UDim2.new(0.0838471353, 0, 0.362543195, 0)
+				A.Size = UDim2.new(0, 86, 0, 70)
+				A.Font = Enum.Font.SourceSans
+				A.Text = "A"
+				A.TextColor3 = Color3.new(1, 1, 1)
+				A.TextScaled = true
+				A.TextSize = 14
+				A.TextWrapped = true
+				
+				UICorner_2.Parent = A
+				
+				S.Name = "S"
+				S.Parent = ScreenGui
+				S.BackgroundColor3 = Color3.new(0.219608, 0.45098, 0.941177)
+				S.Position = UDim2.new(0.0100809559, 0, 0.470844865, 0)
+				S.Size = UDim2.new(0, 86, 0, 70)
+				S.Font = Enum.Font.SourceSans
+				S.Text = "S"
+				S.TextColor3 = Color3.new(1, 1, 1)
+				S.TextScaled = true
+				S.TextSize = 14
+				S.TextWrapped = true
+				
+				UICorner_3.Parent = S
+				
+				D.Name = "D"
+				D.Parent = ScreenGui
+				D.BackgroundColor3 = Color3.new(0.219608, 0.45098, 0.941177)
+				D.Position = UDim2.new(0.0838471353, 0, 0.470844865, 0)
+				D.Size = UDim2.new(0, 86, 0, 70)
+				D.Font = Enum.Font.SourceSans
+				D.Text = "D"
+				D.TextColor3 = Color3.new(1, 1, 1)
+				D.TextScaled = true
+				D.TextSize = 14
+				D.TextWrapped = true
+				
+				UICorner_4.Parent = D
+				
+				SPACE.Name = "SPACE"
+				SPACE.Parent = ScreenGui
+				SPACE.BackgroundColor3 = Color3.new(0.219608, 0.45098, 0.941177)
+				SPACE.Position = UDim2.new(0.0092868004, 0, 0.580431223, 0)
+				SPACE.Size = UDim2.new(0, 180, 0, 39)
+				SPACE.Font = Enum.Font.SourceSans
+				SPACE.Text = "SPACE"
+				SPACE.TextColor3 = Color3.new(1, 1, 1)
+				SPACE.TextScaled = true
+				SPACE.TextSize = 14
+				SPACE.TextWrapped = true
+				
+				UICorner_5.Parent = SPACE
