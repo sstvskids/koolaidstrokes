@@ -25,7 +25,7 @@ WKey.Text = "W"
 WKey.TextColor3 = Color3.new(1, 1, 1)
 WKey.TextScaled = true
 WKey.TextSize = 14
-WKey.TextStrokeTransparency = 0.8399999737739563
+WKey.TextStrokeTransparency = 0.83
 WKey.TextWrapped = true
 
 UICorner.Parent = WKey
@@ -41,7 +41,7 @@ AKey.Text = "A"
 AKey.TextColor3 = Color3.new(1, 1, 1)
 AKey.TextScaled = true
 AKey.TextSize = 14
-AKey.TextStrokeTransparency = 0.8399999737739563
+AKey.TextStrokeTransparency = 0.83
 AKey.TextWrapped = true
 
 UICorner_2.Parent = AKey
@@ -57,7 +57,7 @@ SKey.Text = "S"
 SKey.TextColor3 = Color3.new(1, 1, 1)
 SKey.TextScaled = true
 SKey.TextSize = 14
-SKey.TextStrokeTransparency = 0.8399999737739563
+SKey.TextStrokeTransparency = 0.83
 SKey.TextWrapped = true
 
 UICorner_3.Parent = SKey
@@ -73,7 +73,7 @@ DKey.Text = "D"
 DKey.TextColor3 = Color3.new(1, 1, 1)
 DKey.TextScaled = true
 DKey.TextSize = 14
-DKey.TextStrokeTransparency = 0.8399999737739563
+DKey.TextStrokeTransparency = 0.83
 DKey.TextWrapped = true
 
 UICorner_4.Parent = DKey
@@ -89,7 +89,7 @@ SPACE.Text = "--"
 SPACE.TextColor3 = Color3.new(1, 1, 1)
 SPACE.TextScaled = true
 SPACE.TextSize = 14
-SPACE.TextStrokeTransparency = 0.8399999737739563
+SPACE.TextStrokeTransparency = 0.83
 SPACE.TextWrapped = true
 
 UICorner_5.Parent = SPACE
