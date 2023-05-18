@@ -1,3 +1,5 @@
+-- issues should be fixed, fucking fixed them
+
 local KeystrokesUI = Instance.new("ScreenGui")
 local WKey = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
