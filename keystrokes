@@ -191,7 +191,7 @@ local function ZXOGKD_fake_script() -- DKey.LocalScript
 	
 	-- Define a function to handle the keyboard events
 	local function handleKeyEvent(input, isKeyDown)
-		if input.KeyCode == Enum.KeyCode.S then -- Only change the background color if the "W" key is pressed
+		if input.KeyCode == Enum.KeyCode.D then -- Only change the background color if the "W" key is pressed
 			if isKeyDown then
 				DKey.BackgroundColor3 = Color3.fromRGB(27, 27, 27) -- Change the background color to dark gray when the "W" key is pressed
 			else
@@ -221,7 +221,7 @@ local function VSDT_fake_script() -- SPACE.LocalScript
 	
 	-- Define a function to handle the keyboard events
 	local function handleKeyEvent(input, isKeyDown)
-		if input.KeyCode == Enum.KeyCode.S then -- Only change the background color if the "W" key is pressed
+		if input.KeyCode == Enum.KeyCode.SPACE then -- Only change the background color if the "W" key is pressed
 			if isKeyDown then
 				SPACE.BackgroundColor3 = Color3.fromRGB(27, 27, 27) -- Change the background color to dark gray when the "W" key is pressed
 			else
