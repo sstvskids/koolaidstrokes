@@ -1,9 +1,14 @@
 local KeystrokesUI = Instance.new("ScreenGui")
-local WKey = Instance.new("TextLabel")
-local AKey = Instance.new("TextLabel")
-local SKey = Instance.new("TextLabel")
-local SPACEKey = Instance.new("TextLabel")
-local DKey = Instance.new("TextLabel")
+local WKey = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local AKey = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local SKey = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local DKey = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local SPACE = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
 
 KeystrokesUI.Name = "KeystrokesUI"
 KeystrokesUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -11,82 +16,85 @@ KeystrokesUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 WKey.Name = "WKey"
 WKey.Parent = KeystrokesUI
-WKey.BackgroundColor3 = Color3.new(0.294118, 0.294118, 0.294118)
-WKey.BackgroundTransparency = 0.30000001192092896
-WKey.BorderSizePixel = 5
-WKey.Position = UDim2.new(0.00816858001, 0, 0.776461244, 0)
-WKey.Size = UDim2.new(0, 78, 0, 72)
-WKey.Font = Enum.Font.GothamBold
+WKey.BackgroundColor3 = Color3.new(0.231373, 0.231373, 0.231373)
+WKey.BackgroundTransparency = 0.3499999940395355
+WKey.Position = UDim2.new(0.0471478477, 0, 0.359075665, 0)
+WKey.Size = UDim2.new(0, 52, 0, 50)
+WKey.Font = Enum.Font.SourceSansBold
 WKey.Text = "W"
 WKey.TextColor3 = Color3.new(1, 1, 1)
 WKey.TextScaled = true
 WKey.TextSize = 14
-WKey.TextStrokeTransparency = 0.4399999976158142
+WKey.TextStrokeTransparency = 0.8399999737739563
 WKey.TextWrapped = true
+
+UICorner.Parent = WKey
 
 AKey.Name = "AKey"
 AKey.Parent = KeystrokesUI
-AKey.BackgroundColor3 = Color3.new(0.294118, 0.294118, 0.294118)
-AKey.BackgroundTransparency = 0.30000001192092896
-AKey.BorderSizePixel = 5
-AKey.Position = UDim2.new(0.0634655207, 0, 0.776461244, 0)
-AKey.Size = UDim2.new(0, 78, 0, 72)
-AKey.Font = Enum.Font.GothamBold
+AKey.BackgroundColor3 = Color3.new(0.231373, 0.231373, 0.231373)
+AKey.BackgroundTransparency = 0.3499999940395355
+AKey.Position = UDim2.new(0.0122235166, 0, 0.41937229, 0)
+AKey.Size = UDim2.new(0, 52, 0, 50)
+AKey.Font = Enum.Font.SourceSansBold
 AKey.Text = "A"
 AKey.TextColor3 = Color3.new(1, 1, 1)
 AKey.TextScaled = true
 AKey.TextSize = 14
-AKey.TextStrokeTransparency = 0.4399999976158142
+AKey.TextStrokeTransparency = 0.8399999737739563
 AKey.TextWrapped = true
+
+UICorner_2.Parent = AKey
 
 SKey.Name = "SKey"
 SKey.Parent = KeystrokesUI
-SKey.BackgroundColor3 = Color3.new(0.294118, 0.294118, 0.294118)
-SKey.BackgroundTransparency = 0.30000001192092896
-SKey.BorderSizePixel = 5
-SKey.Position = UDim2.new(0.00875062309, 0, 0.865908504, 0)
-SKey.Size = UDim2.new(0, 78, 0, 72)
-SKey.Font = Enum.Font.GothamBold
+SKey.BackgroundColor3 = Color3.new(0.231373, 0.231373, 0.231373)
+SKey.BackgroundTransparency = 0.3499999940395355
+SKey.Position = UDim2.new(0.0471478477, 0, 0.41937229, 0)
+SKey.Size = UDim2.new(0, 52, 0, 50)
+SKey.Font = Enum.Font.SourceSansBold
 SKey.Text = "S"
 SKey.TextColor3 = Color3.new(1, 1, 1)
 SKey.TextScaled = true
 SKey.TextSize = 14
-SKey.TextStrokeTransparency = 0.4399999976158142
+SKey.TextStrokeTransparency = 0.8399999737739563
 SKey.TextWrapped = true
 
-SPACEKey.Name = "SPACEKey"
-SPACEKey.Parent = KeystrokesUI
-SPACEKey.BackgroundColor3 = Color3.new(0.294118, 0.294118, 0.294118)
-SPACEKey.BackgroundTransparency = 0.30000001192092896
-SPACEKey.BorderSizePixel = 5
-SPACEKey.Position = UDim2.new(0.00875062682, 0, 0.955355644, 0)
-SPACEKey.Size = UDim2.new(0, 171, 0, 30)
-SPACEKey.Font = Enum.Font.GothamBold
-SPACEKey.Text = "SPACE"
-SPACEKey.TextColor3 = Color3.new(1, 1, 1)
-SPACEKey.TextScaled = true
-SPACEKey.TextSize = 14
-SPACEKey.TextStrokeTransparency = 0.4399999976158142
-SPACEKey.TextWrapped = true
+UICorner_3.Parent = SKey
 
 DKey.Name = "DKey"
 DKey.Parent = KeystrokesUI
-DKey.BackgroundColor3 = Color3.new(0.294118, 0.294118, 0.294118)
-DKey.BackgroundTransparency = 0.30000001192092896
-DKey.BorderSizePixel = 5
-DKey.Position = UDim2.new(0.0634654015, 0, 0.865908504, 0)
-DKey.Size = UDim2.new(0, 78, 0, 72)
-DKey.Font = Enum.Font.GothamBold
+DKey.BackgroundColor3 = Color3.new(0.231373, 0.231373, 0.231373)
+DKey.BackgroundTransparency = 0.3499999940395355
+DKey.Position = UDim2.new(0.0832363218, 0, 0.41937229, 0)
+DKey.Size = UDim2.new(0, 52, 0, 50)
+DKey.Font = Enum.Font.SourceSansBold
 DKey.Text = "D"
 DKey.TextColor3 = Color3.new(1, 1, 1)
 DKey.TextScaled = true
 DKey.TextSize = 14
-DKey.TextStrokeTransparency = 0.4399999976158142
+DKey.TextStrokeTransparency = 0.8399999737739563
 DKey.TextWrapped = true
 
--- Scripts
+UICorner_4.Parent = DKey
 
-local function HALDPXL_fake_script() -- WKey.LocalScript 
+SPACE.Name = "SPACE"
+SPACE.Parent = KeystrokesUI
+SPACE.BackgroundColor3 = Color3.new(0.231373, 0.231373, 0.231373)
+SPACE.BackgroundTransparency = 0.3499999940395355
+SPACE.Position = UDim2.new(0.0122235073, 0, 0.481446773, 0)
+SPACE.Size = UDim2.new(0, 175, 0, 28)
+SPACE.Font = Enum.Font.SourceSansBold
+SPACE.Text = "--"
+SPACE.TextColor3 = Color3.new(1, 1, 1)
+SPACE.TextScaled = true
+SPACE.TextSize = 14
+SPACE.TextStrokeTransparency = 0.8399999737739563
+SPACE.TextWrapped = true
+
+UICorner_5.Parent = SPACE
+
+local function FJCQLD_fake_script() -- WKey.LocalScript 
 	local script = Instance.new('LocalScript', WKey)
 
 	local WKey = script.Parent -- Get the TextLabel object
@@ -95,9 +103,9 @@ local function HALDPXL_fake_script() -- WKey.LocalScript
 	local function handleKeyEvent(input, isKeyDown)
 		if input.KeyCode == Enum.KeyCode.W then -- Only change the background color if the "W" key is pressed
 			if isKeyDown then
-				WKey.BackgroundColor3 = Color3.fromRGB(50, 50, 50) -- Change the background color to dark gray when the "W" key is pressed
+				WKey.BackgroundColor3 = Color3.fromRGB(27, 27, 27) -- Change the background color to dark gray when the "W" key is pressed
 			else
-				WKey.BackgroundColor3 = Color3.fromRGB(75, 75, 75) -- Change the background color back to light gray when the "W" key is released
+				WKey.BackgroundColor3 = Color3.fromRGB(59, 59, 59) -- Change the background color back to light gray when the "W" key is released
 			end
 		end
 	end
@@ -115,8 +123,8 @@ local function HALDPXL_fake_script() -- WKey.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HALDPXL_fake_script)()
-local function BYVX_fake_script() -- AKey.LocalScript 
+coroutine.wrap(FJCQLD_fake_script)()
+local function OMRTO_fake_script() -- AKey.LocalScript 
 	local script = Instance.new('LocalScript', AKey)
 
 	local AKey = script.Parent -- Get the TextLabel object
@@ -125,9 +133,9 @@ local function BYVX_fake_script() -- AKey.LocalScript
 	local function handleKeyEvent(input, isKeyDown)
 		if input.KeyCode == Enum.KeyCode.A then -- Only change the background color if the "W" key is pressed
 			if isKeyDown then
-				AKey.BackgroundColor3 = Color3.fromRGB(50, 50, 50) -- Change the background color to dark gray when the "W" key is pressed
+				AKey.BackgroundColor3 = Color3.fromRGB(27, 27, 27) -- Change the background color to dark gray when the "W" key is pressed
 			else
-				AKey.BackgroundColor3 = Color3.fromRGB(75, 75, 75) -- Change the background color back to light gray when the "W" key is released
+				AKey.BackgroundColor3 = Color3.fromRGB(59, 59, 59) -- Change the background color back to light gray when the "W" key is released
 			end
 		end
 	end
@@ -145,8 +153,8 @@ local function BYVX_fake_script() -- AKey.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BYVX_fake_script)()
-local function TCHHY_fake_script() -- SKey.LocalScript 
+coroutine.wrap(OMRTO_fake_script)()
+local function YVAM_fake_script() -- SKey.LocalScript 
 	local script = Instance.new('LocalScript', SKey)
 
 	local SKey = script.Parent -- Get the TextLabel object
@@ -155,9 +163,9 @@ local function TCHHY_fake_script() -- SKey.LocalScript
 	local function handleKeyEvent(input, isKeyDown)
 		if input.KeyCode == Enum.KeyCode.S then -- Only change the background color if the "W" key is pressed
 			if isKeyDown then
-				SKey.BackgroundColor3 = Color3.fromRGB(50, 50, 50) -- Change the background color to dark gray when the "W" key is pressed
+				SKey.BackgroundColor3 = Color3.fromRGB(27, 27, 27) -- Change the background color to dark gray when the "W" key is pressed
 			else
-				SKey.BackgroundColor3 = Color3.fromRGB(75, 75, 75) -- Change the background color back to light gray when the "W" key is released
+				SKey.BackgroundColor3 = Color3.fromRGB(59, 59, 59) -- Change the background color back to light gray when the "W" key is released
 			end
 		end
 	end
@@ -175,49 +183,19 @@ local function TCHHY_fake_script() -- SKey.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TCHHY_fake_script)()
-local function EEUOH_fake_script() -- SPACEKey.LocalScript 
-	local script = Instance.new('LocalScript', SPACEKey)
-
-	local SPACEKey = script.Parent -- Get the TextLabel object
-	
-	-- Define a function to handle the keyboard events
-	local function handleKeyEvent(input, isKeyDown)
-		if input.KeyCode == Enum.KeyCode.Space then -- Only change the background color if the "W" key is pressed
-			if isKeyDown then
-				SPACEKey.BackgroundColor3 = Color3.fromRGB(50, 50, 50) -- Change the background color to dark gray when the "W" key is pressed
-			else
-				SPACEKey.BackgroundColor3 = Color3.fromRGB(75, 75, 75) -- Change the background color back to light gray when the "W" key is released
-			end
-		end
-	end
-	
-	-- Connect the handleKeyEvent function to the UserInputService's InputBegan and InputEnded events
-	game:GetService("UserInputService").InputBegan:Connect(function(input, processed)
-		if not processed then
-			handleKeyEvent(input, true)
-		end
-	end)
-	
-	game:GetService("UserInputService").InputEnded:Connect(function(input, processed)
-		if not processed then
-			handleKeyEvent(input, false)
-		end
-	end)
-end
-coroutine.wrap(EEUOH_fake_script)()
-local function NHJIGL_fake_script() -- DKey.LocalScript 
+coroutine.wrap(YVAM_fake_script)()
+local function ZXOGKD_fake_script() -- DKey.LocalScript 
 	local script = Instance.new('LocalScript', DKey)
 
 	local DKey = script.Parent -- Get the TextLabel object
 	
 	-- Define a function to handle the keyboard events
 	local function handleKeyEvent(input, isKeyDown)
-		if input.KeyCode == Enum.KeyCode.D then -- Only change the background color if the "W" key is pressed
+		if input.KeyCode == Enum.KeyCode.S then -- Only change the background color if the "W" key is pressed
 			if isKeyDown then
-				DKey.BackgroundColor3 = Color3.fromRGB(50, 50, 50) -- Change the background color to dark gray when the "W" key is pressed
+				DKey.BackgroundColor3 = Color3.fromRGB(27, 27, 27) -- Change the background color to dark gray when the "W" key is pressed
 			else
-				DKey.BackgroundColor3 = Color3.fromRGB(75, 75, 75) -- Change the background color back to light gray when the "W" key is released
+				DKey.BackgroundColor3 = Color3.fromRGB(59, 59, 59) -- Change the background color back to light gray when the "W" key is released
 			end
 		end
 	end
@@ -235,4 +213,34 @@ local function NHJIGL_fake_script() -- DKey.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NHJIGL_fake_script)()
+coroutine.wrap(ZXOGKD_fake_script)()
+local function VSDT_fake_script() -- SPACE.LocalScript 
+	local script = Instance.new('LocalScript', SPACE)
+
+	local SPACE = script.Parent -- Get the TextLabel object
+	
+	-- Define a function to handle the keyboard events
+	local function handleKeyEvent(input, isKeyDown)
+		if input.KeyCode == Enum.KeyCode.S then -- Only change the background color if the "W" key is pressed
+			if isKeyDown then
+				SPACE.BackgroundColor3 = Color3.fromRGB(27, 27, 27) -- Change the background color to dark gray when the "W" key is pressed
+			else
+				SPACE.BackgroundColor3 = Color3.fromRGB(59, 59, 59) -- Change the background color back to light gray when the "W" key is released
+			end
+		end
+	end
+	
+	-- Connect the handleKeyEvent function to the UserInputService's InputBegan and InputEnded events
+	game:GetService("UserInputService").InputBegan:Connect(function(input, processed)
+		if not processed then
+			handleKeyEvent(input, true)
+		end
+	end)
+	
+	game:GetService("UserInputService").InputEnded:Connect(function(input, processed)
+		if not processed then
+			handleKeyEvent(input, false)
+		end
+	end)
+end
+coroutine.wrap(VSDT_fake_script)()
